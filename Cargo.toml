@@ -14,6 +14,6 @@ repository = "https://github.com/smilerobotics/tf_rosrust"
 homepage = "https://github.com/smilerobotics/tf_rosrust"
 
 [dependencies]
-rosrust = "0.9"
+rosrust = { version = "0.9", git = "https://github.com/MichiBab/rosrust" }
 nalgebra = "0.29"
 thiserror = "1.0"
